@@ -1,6 +1,6 @@
 # Nioh 2 Cheat Sheet
 
-[Click here to access the sheet]()
+[Click here to access the sheet](https://barcodebunny.github.io/nioh-2-cheat-sheet/)
 
 This Nioh 2 cheat sheet was created using source code from the [Dark Souls 2 Cheat Sheet](https://github.com/smcnabb/dark-souls-2-cheat-sheet/tree/gh-pages) created by [Stephen McNabb](https://github.com/smcnabb), 
 as well as [Zachary Kjellberg](https://github.com/ZKjellberg)'s [Dark Souls 3 Cheat Sheet](http://zkjellberg.github.io/dark-souls-3-cheat-sheet/).
