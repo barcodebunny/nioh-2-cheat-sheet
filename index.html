@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <title>Nioh 2 Cheat Sheet</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico?">
+  <link rel="apple-touch-icon-precomposed" href="img/favicon-152.png">
+  <link rel="mask-icon" href="img/pinned-tab-icon.svg" color="#000000">
+  <meta name="description" content="Checklist of items, smithing texts, soul cores, etc for Nioh 2.">
+  <meta name="author" content="Camille">
+  <meta name="mobile-web-app-capable" content="yes">
+  <link id="bootstrap" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+  <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="nav-collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#tabPlaythrough" data-toggle="tab" data-target="#tabPlaythrough,#btnHideCompleted">Playthrough</a></li>
+          <li><a href="#tabSkills" data-toggle="tab" data-target="#tabSkills,#btnHideCompleted">Unlockable Skills</a></li>
+          <li><a href="#tabWeaponSmithingTexts" data-toggle="tab" data-target="#tabWeaponSmithingTexts,#btnHideCompleted">Weapon Smithing Texts</a></li>
+          <li><a href="#tabArmourSmithingTexts" data-toggle="tab" data-target="#tabArmourSmithingTexts,#btnHideCompleted">Armour Smithing Texts</a></li>
+          <li><a href="#tabChecklists" data-toggle="tab" data-target="#tabChecklists,#btnHideCompleted">Achievements</a></li>
+          <li><a href="#tabFAQ" data-toggle="tab"><span class="glyphicon glyphicon-question-sign"></span> FAQ</a></li>
+          <li><a href="#tabOptions" data-toggle="tab"><span class="glyphicon glyphicon-cog"></span> Options</a></li>
+        </ul>
+        <!-- /.nav.navbar-nav -->
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h1>Nioh&nbsp;2&nbsp;Cheat&nbsp;Sheet</h1>
+        <!-- <p class="lead">Contribute to the guide at the <a href="https://github.com/ZKjellberg/dark-souls-3-cheat-sheet">GitHub Page</a></p> -->
+      </div>
+    </div>
+
+    <div class="tab-content">
+      <!-- Hide Completed Toggle -->
+      <div class="tab-pane active in" id="btnHideCompleted">
+        <div class="btn-group" role="group" data-toggle="buttons">
+          <label class="btn btn-default">
+            <input type="checkbox" id="toggleHideCompleted">
+            <span class="glyphicon glyphicon-eye-close"></span>
+            <span class="glyphicon glyphicon-eye-open"></span>
+            Hide Completed
+            <a class="btn btn-default btn-sm fadingbutton togglehide" onclick="$('#toggleHideCompleted').click();">
+              <span class="glyphicon glyphicon-eye-close"></span>
+              <span class="glyphicon glyphicon-eye-open"></span>
+              Hide Completed
+            </a>
+          </label>
+        </div>
+      </div>
+      <!-- PLAYTHROUGH START -->
+      <div class="tab-pane active" id="tabPlaythrough">
+        <!-- Toolbar -->
+        <h2>Filter by Dream of the 
+          <span class="btn-group btn-group-toggle" data-toggle="buttons">
+            <label class="btn btn-default"><input type="radio" name="journey" data-ng-toggle="1">Samurai</label>
+            <label class="btn btn-default"><input type="radio" name="journey" data-ng-toggle="2">Strong</label>
+            <label class="btn btn-default"><input type="radio" name="journey" data-ng-toggle="3">Demon</label>
+            <label class="btn btn-default"><input type="radio" name="journey" data-ng-toggle="4">Wise</label>
+            <label class="btn btn-default"><input type="radio" name="journey" data-ng-toggle="5">Nioh</label>
+          </span>
+        </h2>
+        <div class="btn-group">
+          <div class="btn-group btn-group-vertical">
+            <div class="btn-group">
+              <div class="btn-group-vertical" data-toggle="buttons">
+                <label class="btn btn-default dropdown-toggle">
+                  <input type="checkbox" data-category-toggle />
+                  <span class="glyphicon glyphicon-eye-close"></span>
+                  <span class="glyphicon glyphicon-eye-open"></span>
+                  Mission Type
+                </label>
+              </div>
+            </div>
+            <div class="btn-group">
+              <div class="btn-group-vertical btn-group-sm" data-toggle="buttons">
+                <label class="btn btn-default">
+                  <input type="checkbox" data-item-toggle="f_main" />
+                  <span class="glyphicon glyphicon-eye-close"></span>
+                  <span class="glyphicon glyphicon-eye-open"></span>
+                  Main Story Missions
+                </label>
+                <label class="btn btn-default">
+                  <input type="checkbox" data-item-toggle="f_side" />
+                  <span class="glyphicon glyphicon-eye-close"></span>
+                  <span class="glyphicon glyphicon-eye-open"></span>
+                  Side Missions
+                </label>
+                <label class="btn btn-default">
+                  <input type="checkbox" data-item-toggle="f_online" />
+                  <span class="glyphicon glyphicon-eye-close"></span>
+                  <span class="glyphicon glyphicon-eye-open"></span>
+                  Online Missions
+                </label>
+                <label class="btn btn-default">
+                  <input type="checkbox" data-item-toggle="f_twilight" />
+                  <span class="glyphicon glyphicon-eye-close"></span>
+                  <span class="glyphicon glyphicon-eye-open"></span>
+                  Twilight Missions
+                </label>
+                <label class="btn btn-default">
+                  <input type="checkbox" data-item-toggle="f_dojo" />
+                  <span class="glyphicon glyphicon-eye-close"></span>
+                  <span class="glyphicon glyphicon-eye-open"></span>
+                  Dojo Missions
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+          
+
+        <h2>Playthrough Checklist <span id="playthrough_overall_total"></span></h2>
+        <ul class="table_of_contents">
+          <li><a href="#Awakening">Awakening</a> <span id="playthrough_nav_totals_1"></span></li>
+          <li><a href="#Soaring">Soaring</a> <span id="playthrough_nav_totals_2"></span></li>
+          <li><a href="#Shadow">Shadow</a> <span id="playthrough_nav_totals_3"></span></li>
+          <li><a href="#Dawn">Dawn</a> <span id="playthrough_nav_totals_4"></span></li>
+          <li><a href="#Twilight">Twilight</a> <span id="playthrough_nav_totals_5"></span></li>
+          <li><a href="#Dream">Dream</a> <span id="playthrough_nav_totals_6"></span></li>
+          <li><a href="#Afterglow">Afterglow</a> <span id="playthrough_nav_totals_7"></span></li>
+          <li><a href="#The_Tengus_Disciple">The Tengu's Disciple (DLC)</a> <span id="playthrough_nav_totals_8"></span></li>
+          <li><a href="#Darkness_In_The_Capital">Darkness In The Capital (DLC)</a><span id="playthrough_nav_totals_9"></span></li>
+          <li><a href="#The_First_Samurai">The First Samurai (DLC)</a> <span id="playthrough_nav_totals_10"></span></li>
+          <li><a href="#Twilight_Missions">Twilight Missions</a> <span id="playthrough_nav_totals_11"></span></li>
+          <li><a href="#Dojo_Missions">Dojo & Training Missions</a> <span id="playthrough_nav_totals_12"></span></li>
+        </ul>
+
+        <div class="form-group">
+          <input type="search" id="playthrough_search" class="form-control" placeholder="Start typing to filter results..." />
+        </div>
+
+        <div id="playthrough_list">
+
+          <h3 id="Awakening"><a href="#Awakening_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>Awakening<span id="playthrough_totals_1"></span></h3>
+          <ul id="Awakening_col" class="collapse in">
+            <li data-id="playthrough_1_1" class="f_main"><img class="resize" src="./img/niohmain.png"/><a href="https://nioh2.wiki.fextralife.com/The+Village+of+Cursed+Blossoms">The Village of Cursed Blossoms</a></li>
+            <li data-id="playthrough_1_2" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/The+Forest+Veiled+in+Darkness">The Forest Veiled in Darkness</a></li>
+            <li data-id="playthrough_1_3" class="f_main"><img class="resize" src="./img/niohmain.png"/><a href="https://nioh2.wiki.fextralife.com/The+Beast+Born+of+Smoke+and+Flames">The Beast Born of Smoke and Flames</a></li>
+            <li data-id="playthrough_1_4" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/A+Voice+in+the+Twilight">A Voice in the Twilight</a></li>
+            <li data-id="playthrough_1_5" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/Dark+Omens">Dark Omens</a></li>
+            <li data-id="playthrough_1_6" class="f_main"><img class="resize" src="./img/niohmain.png"/><a href="https://nioh2.wiki.fextralife.com/The+Viper's+Sanctum">The Viper's Sanctum</a></li>
+            <li data-id="playthrough_1_7" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/A+Favor+for+the+Blacksmith">A Favor for the Blacksmith</a></li>
+            <li data-id="playthrough_1_8" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/The+Search">The Search</a></li>
+            <li data-id="playthrough_1_9" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/The+Greedy+Hunter">The Greedy Hunter</a></li>
+          </ul>
+
+          <h3 id="Soaring"><a href="#Soaring_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>Soaring<span id="playthrough_totals_2"></span></h3>
+          <ul id="Soaring_col" class="collapse in">
+            <li data-id="playthrough_2_1" class="f_main"><img class="resize" src="./img/niohmain.png"/><a href="https://nioh2.wiki.fextralife.com/The+Hidden+Monsters+of+Okehazama">The Hidden Monsters of Okehazama</a></li>
+            <li data-id="playthrough_2_2" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/Imagawa+Diehard">Imagawa Diehard</a></li>
+            <li data-id="playthrough_2_3" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/Hidetatsu's+Dying+Wish">Hidetatsu's Dying Wish</a></li>
+            <li data-id="playthrough_2_4" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/An+Error+in+Calculation">An Error in Calculation</a></li>
+            <li data-id="playthrough_2_5" class="f_main"><img class="resize" src="./img/niohmain.png"/><a href="https://nioh2.wiki.fextralife.com/The+Mysterious+One+Night+Castle">The Mysterious One Night Castle</a></li>
+            <li data-id="playthrough_2_6" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/The+Sunomata+Yokai+Hunt">The Sunomata Yokai Hunt</a></li>
+            <li data-id="playthrough_2_7" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/A+Hot-blooded+Howl">A Hot-Blooded Howl</a></li>
+            <li data-id="playthrough_2_8" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/The+Fire+God's+Magatama">The Fire God's Magatama</a></li>
+            <li data-id="playthrough_2_9" class="f_main"><img class="resize" src="./img/niohmain.png"/><a href="https://nioh2.wiki.fextralife.com/The+Hollow+Fortress">The Hollow Fortress</a></li>
+            <li data-id="playthrough_2_10" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/An+End+to+Seclusion">An End to Seclusion</a></li>
+            <li data-id="playthrough_2_11" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/The+Shifting's+Wise+Judgement">The Shiftling's Wise Judgement</a></li>
+            <li data-id="playthrough_2_12" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/The+Viper+and+the+Butterfly">The Viper and the Butterfly</a></li>
+          </ul>
+
+          <h3 id="Shadow"><a href="#Shadow_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>Shadow<span id="playthrough_totals_3"></span></h3>
+          <ul id="Shadow_col" class="collapse in">
+            <li data-id="playthrough_3_1" class="f_main"><img class="resize" src="./img/niohmain.png"/><a href="https://nioh2.wiki.fextralife.com/A+Way+Out">A Way Out</a></li>
+            <li data-id="playthrough_3_2" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/Learning+a+Lesson">Learning a Lesson</a></li>
+            <li data-id="playthrough_3_3" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/Immovable">Immovable</a></li>
+            <li data-id="playthrough_3_4" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/The+Shrine+of+Oaths">The Shrine of Oaths</a></li>
+            <li data-id="playthrough_3_5" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/A+Formal+Match">A Formal Match</a></li>
+            <li data-id="playthrough_3_6" class="f_main"><img class="resize" src="./img/niohmain.png"/><a href="https://nioh2.wiki.fextralife.com/Corpses+and+Ice">Corpses and Ice</a></li>
+            <li data-id="playthrough_3_7" class="f_online"><img class="resize" src="./img/niohonline.png"/><a href="https://nioh2.wiki.fextralife.com/The+Chinese+Bellflower+Dagger">The Chinese Bellflower Dagger</a></li>
+            <li data-id="playthrough_3_8" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/Lingering+Snow+and+Crimson+Tracks">Lingering Snow and Crimson Tracks</a></li>
+            <li data-id="playthrough_3_9" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/The+Tiger+Approaches">The Tiger Approaches</a></li>
+            <li data-id="playthrough_3_10" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/The+Brothers%E2%80%99+Blades">The Brothers' Blades</a></li>
+            <li data-id="playthrough_3_19" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/Horns+on+Head+Dragonfly+in+Hand">Horns on Head, Dragonfly in Hand</a></li>
+            <li data-id="playthrough_3_11" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/The+Fallen+Star">The Fallen Star</a></li>
+            <li data-id="playthrough_3_12" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/A+Shadow's+Duty">A Shadow's Duty</a></li>
+            <li data-id="playthrough_3_13" class="f_main"><img class="resize" src="./img/niohmain.png"/><a href="https://nioh2.wiki.fextralife.com/Bird+in+a+Cage">Bird in a Cage</a></li>
+            <li data-id="playthrough_3_14" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/The+Demon+King's+Blade">The Demon King's Blade</a></li>
+            <li data-id="playthrough_3_15" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/The+Golden+Nation">The Golden Nation</a></li>
+            <li data-id="playthrough_3_16" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/The+Point+of+No+Return">The Point of No Return</a></li>
+            <li data-id="playthrough_3_17" class="f_online"><img class="resize" src="./img/niohonline.png"/><a href="https://nioh2.wiki.fextralife.com/The+Child+Prodigy's+Invitation">The Child Prodigy's Invitation</a></li>
+            <li data-id="playthrough_3_18" class="f_online"><img class="resize" src="./img/niohonline.png"/><a href="https://nioh2.wiki.fextralife.com/A+Strong+Bond">A Strong Bond</a></li>
+          </ul>
+
+          <h3 id="Dawn"><a href="#Dawn_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>Dawn<span id="playthrough_totals_4"></span></h3>
+          <ul id="Dawn_col" class="collapse in">
+            <li data-id="playthrough_4_1" class="f_main"><img class="resize" src="./img/niohmain.png"/><a href="https://nioh2.wiki.fextralife.com/Pervading+Waters">Pervading Waters</a></li>
+            <li data-id="playthrough_4_2" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/The+Missing+Gun">The Missing Gun</a></li>
+            <li data-id="playthrough_4_3" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/Song+of+the+Yokai">Song of the Yokai</a></li>
+            <li data-id="playthrough_4_4" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/The+Refined+Man+of+the+Underworld">The Refined Man of the Underworld</a></li>
+            <li data-id="playthrough_4_5" class="f_main"><img class="resize" src="./img/niohmain.png"/><a href="https://nioh2.wiki.fextralife.com/The+Frenzied+Blaze">The Frenzied Blaze</a></li>
+            <li data-id="playthrough_4_6" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/Master+of+the+Three+Evils">Master of the Three Evils</a></li>
+            <li data-id="playthrough_4_7" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/The+Burning+Sky">The Burning Sky</a></li>
+            <li data-id="playthrough_4_8" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/Abduction">Abduction</a></li>
+            <li data-id="playthrough_4_9" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/The+Warrior">The Warrior</a></li>
+            <li data-id="playthrough_4_10" class="f_main"><img class="resize" src="./img/niohmain.png"/><a href="https://nioh2.wiki.fextralife.com/The+Sun+Sets+on+Mount+Tenno">The Sun Sets on Mount Tenno</a></li>
+            <li data-id="playthrough_4_11" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/The+Aberrant+Mage">The Aberrant Mage</a></li>
+            <li data-id="playthrough_4_12" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/The+Third+Word">The Third Word</a></li>
+          </ul>
+
+          <h3 id="Twilight"><a href="#Twilight_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>Twilight<span id="playthrough_totals_5"></span></h3>
+          <ul id="Twilight_col" class="collapse in">
+            <li data-id="playthrough_5_1" class="f_main"><img class="resize" src="./img/niohmain.png"/><a href="https://nioh2.wiki.fextralife.com/Ruin+Draws+Near">Ruin Draws Near</a></li>
+            <li data-id="playthrough_5_2" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/Okuni's+Search">Okuni's Search</a></li>
+            <li data-id="playthrough_5_3" class="f_online"><img class="resize" src="./img/niohonline.png"/><a href="https://nioh2.wiki.fextralife.com/Farewell+to+the+Past">Farewell to the Past</a></li>
+            <li data-id="playthrough_5_4" class="f_main"><img class="resize" src="./img/niohmain.png"/><a href="https://nioh2.wiki.fextralife.com/The+Two+Faces+of+Hospitality">The Two Faces of Hospitality</a></li>
+            <li data-id="playthrough_5_5" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/A+Prayer+in+the+Moonlight">A Prayer in the Moonlight</a></li>
+            <li data-id="playthrough_5_6" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/A+Message+from+the+Deceased">A Message From the Deceased</a></li>
+            <li data-id="playthrough_5_7" class="f_main"><img class="resize" src="./img/niohmain.png"/><a href="https://nioh2.wiki.fextralife.com/The+High-spirited+Demon">The High-Spirited Demon</a></li>
+            <li data-id="playthrough_5_8" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/Stray+Cats">Stray Cats</a></li>
+            <li data-id="playthrough_5_9" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/Calling+on+the+Fire+God">Calling on the Fire God</a></li>
+            <li data-id="playthrough_5_10" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/Scattered+Fragments">Scattered Fragments</a></li>
+          </ul>
+
+          <h3 id="Dream"><a href="#Dream_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>Dream<span id="playthrough_totals_6"></span></h3>
+          <ul id="Dream_col" class="collapse in">
+            <li data-id="playthrough_6_1" class="f_main"><img class="resize" src="./img/niohmain.png"/><a href="https://nioh2.wiki.fextralife.com/The+Mausoleum+of+Evil">The Mausoleum of Evil</a></li>
+            <li data-id="playthrough_6_2" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/The+Roaming+Artisan">The Roaming Artisan</a></li>
+            <li data-id="playthrough_6_3" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/The+Bravest+of+the+Brave">The Bravest of the Brave</a></li>
+            <li data-id="playthrough_6_4" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/Mataza+of+the+Spear">Mataza of the Spear</a></li>
+            <li data-id="playthrough_6_5" class="f_main"><img class="resize" src="./img/niohmain.png"/><a href="https://nioh2.wiki.fextralife.com/The+Golden+Castle">The Golden Castle</a></li>
+            <li data-id="playthrough_6_6" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/The+Dream's+End">The Dream's End</a></li>
+            <li data-id="playthrough_6_7" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/Restoring+Harmony">Restoring Harmony</a></li>
+            <li data-id="playthrough_6_8" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/Japanese+Heart+Yokai+Smarts">Japanese Hearts, Yokai Hearts</a></li>
+            <li data-id="playthrough_6_9" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/Restless+Spirits">Restless Spirits</a></li>
+            <li data-id="playthrough_6_10" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/Yaksha+Returns">Yaksha Returns</a></li>
+            <li data-id="playthrough_6_11" class="f_main"><img class="resize" src="./img/niohmain.png"/><a href="https://nioh2.wiki.fextralife.com/Cherry+Blossom+Viewing+in+Daigo">Cherry Blossom Viewing in Daigo</a></li>
+            <li data-id="playthrough_6_12" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/The+Scented+Letter">The Scented Letter</a></li>
+          </ul>
+
+          <h3 id="Afterglow"><a href="#Afterglow_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>Afterglow<span id="playthrough_totals_7"></span></h3>
+          <ul id="Afterglow_col" class="collapse in">
+            <li data-id="playthrough_7_1" class="f_main"><img class="resize" src="./img/niohmain.png"/><a href="https://nioh2.wiki.fextralife.com/The+Blue-eyed+Samurai">The Blue-eyed Samurai</a></li>
+            <li data-id="playthrough_7_2" class="f_main"><img class="resize" src="./img/niohmain.png"/><a href="https://nioh2.wiki.fextralife.com/In+the+Eye+of+the+Beholder">In the Eye of the Beholder</a></li>
+            <li data-id="playthrough_7_3" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/Dawn+of+Hope">Dawn of Hope</a></li>
+            <li data-id="playthrough_7_4" class="f_online"><img class="resize" src="./img/niohonline.png"/><a href="https://nioh2.wiki.fextralife.com/The+Trustworthy">The Trustworthy</a></li>
+            <li data-id="playthrough_7_5" class="f_online"><img class="resize" src="./img/niohonline.png"/><a href="https://nioh2.wiki.fextralife.com/Winds+of+Ruin">Winds of Ruin</a></li>
+            <li data-id="playthrough_7_6" class="f_online"><img class="resize" src="./img/niohonline.png"/><a href="https://nioh2.wiki.fextralife.com/Wave+of+Terror">Wave of Terror</a></li>
+            <li data-id="playthrough_7_7" class="f_online"><img class="resize" src="./img/niohonline.png"/><a href="https://nioh2.wiki.fextralife.com/Calamity's+Pulse">Calamity's Pulse</a></li>
+          </ul>
+
+          <h3 id="The_Tengus_Disciple"><a href="#The_Tengus_Disciple_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>The Tengu's Disciple (DLC)<span id="playthrough_totals_8"></span></h3>
+          <ul id="The_Tengus_Disciple_col" class="collapse in">
+            <li data-id="playthrough_8_1" class="f_main"><img class="resize" src="./img/niohmain.png"/><a href="https://nioh2.wiki.fextralife.com/A+Song+to+Calm+the+Storm">A Song to Calm the Storm</a></li>
+            <li data-id="playthrough_8_2" class="f_main"><img class="resize" src="./img/niohmain.png"/><a href="https://nioh2.wiki.fextralife.com/Eternal+Rivals">Eternal Rivals</a></li>
+            <li data-id="playthrough_8_3" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/The+Lost+Sword">The Lost Sword</a></li>
+            <li data-id="playthrough_8_4" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/The+Loyal+Retainer">The Loyal Retainer</a></li>
+            <li data-id="playthrough_8_5" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/Shadows+Creep+in+Kurama">Shadows Creep in Kurama</a></li>
+            <li data-id="playthrough_8_6" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/The+Tale+of+the+Taira">The Tale of the Tiara</a></li>
+            <li data-id="playthrough_8_7" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/Prisoners+of+the+Stones">Prisoners of the Stones</a></li>
+            <li data-id="playthrough_8_8" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/An+Encounter+Among+the+Blossoms">An Encounter Among the Blossoms</a></li>
+            <li data-id="playthrough_8_9" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/Soul+of+the+Warrior+Monk">Soul of the Warrior Monk</a></li>
+            <li data-id="playthrough_8_10" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/Bond+of+the+Blade">Bond of the Blade</a></li>
+          </ul>
+
+          <h3 id="Darkness_In_The_Capital"><a href="#Darkness_In_The_Capital_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>Darkness in the Capital (DLC)<span id="playthrough_totals_9"></span></h3>
+          <ul id="Darkness_In_The_Capital_col" class="collapse in">
+            <li data-id="playthrough_9_1" class="f_main"><img class="resize" src="./img/niohmain.png"/><a href="https://nioh2.wiki.fextralife.com/Suzune+in+the+Flames">Suzune in the Flames</a></li>
+            <li data-id="playthrough_9_2" class="f_main"><img class="resize" src="./img/niohmain.png"/><a href="https://nioh2.wiki.fextralife.com/The+Blighted+Gate">The Blighted Gate</a></li>
+            <li data-id="playthrough_9_3" class="f_main"><img class="resize" src="./img/niohmain.png"/><a href="https://nioh2.wiki.fextralife.com/Palace+of+the+Damned">Palace of the Damned</a></li>
+            <li data-id="playthrough_9_4" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/Insatiable+Bloodlust">Insatiable Bloodlust</a></li>
+            <li data-id="playthrough_9_5" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/The+Buddha's+Palm">The Buddha's Palm</a></li>
+            <li data-id="playthrough_9_6" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/The+Dragon+Clan">The Dragon Clan</a></li>
+            <li data-id="playthrough_9_7" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/The+Revelry+Ends">The Revelry Ends</a></li>
+            <li data-id="playthrough_9_8" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/Boundless+Chaos">Boundless Chaos</a></li>
+            <li data-id="playthrough_9_9" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/The+Sweet+Scent+of+Plums">The Sweet Scent of Plums</a></li>
+          </ul>
+
+          <h3 id="The_First_Samurai"><a href="#The_First_Samurai_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>The First Samurai (DLC)<span id="playthrough_totals_10"></span></h3>
+          <ul id="The_First_Samurai_col" class="collapse in">
+            <li data-id="playthrough_10_1" class="f_main"><img class="resize" src="./img/niohmain.png"/><a href="https://nioh2.wiki.fextralife.com/Dawn+of+the+Demon">Dawn of the Demon</a></li>
+            <li data-id="playthrough_10_2" class="f_main"><img class="resize" src="./img/niohmain.png"/><a href="https://nioh2.wiki.fextralife.com/A+Distant+Dream">A Distant Dream</a></li>
+            <li data-id="playthrough_10_3" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/In+Search+of+the+Elixir">In Search of the Elixir</a></li>
+            <li data-id="playthrough_10_4" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/Words+of+Respite">Words of Respite</a></li>
+            <li data-id="playthrough_10_5" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/Traces+of+the+Raging+Blaze">Traces of the Raging Blaze</a></li>
+            <li data-id="playthrough_10_6" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/The+Mystery+of+Rashomon">The Mystery of Rashomon</a></li>
+            <li data-id="playthrough_10_7" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/A+Spirit's+Return">A Spirit's Return</a></li>
+            <li data-id="playthrough_10_8" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/A+Familiar+Glow">A Familiar Glow</a></li>
+            <li data-id="playthrough_10_9" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/Against+All+Comers">Against All Comers</a></li>
+            <li data-id="playthrough_10_10" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/Rivals+Return">Rivals Return</a></li>
+            <li data-id="playthrough_10_11" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/Undying+Light">Undying Light</a></li>
+            <li data-id="playthrough_10_12" class="f_side"><img class="resize" src="./img/niohsub.png"/><a href="https://nioh2.wiki.fextralife.com/Battle+at+the+Temple">Battle at the Temple</a></li>
+          </ul>
+
+          <h3 id="Twilight_Missions"><a href="#Twilight_Missions_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>Twilight Missions<span id="playthrough_totals_11"></span></h3>
+          <ul id="Twilight_Missions_col" class="collapse in">
+            <li data-id="playthrough_11_1" class="f_twilight"><img class="resize" src="./img/niohtwilight.png"/>The Blood Tainted Samurai</li>
+            <li data-id="playthrough_11_2" class="f_twilight"><img class="resize" src="./img/niohtwilight.png"/><a href="https://nioh2.wiki.fextralife.com/The+Violet+Cherry+Blossoms">The Violet Cherry Blossoms</a></</li>
+            <li data-id="playthrough_11_3" class="f_twilight"><img class="resize" src="./img/niohtwilight.png"/>Blood on the Wind</li>
+            <li data-id="playthrough_11_4" class="f_twilight"><img class="resize" src="./img/niohtwilight.png"/>Wings of the Phoenix</li>
+            <li data-id="playthrough_11_5" class="f_twilight"><img class="resize" src="./img/niohtwilight.png"/><a href="https://nioh2.wiki.fextralife.com/Moutain+of+The+Dark+Lord">Mountain of the Dark Lord</a></</li>
+            <li data-id="playthrough_11_6" class="f_twilight"><img class="resize" src="./img/niohtwilight.png"/><a href="https://nioh2.wiki.fextralife.com/Traces+of+the+Raging+Blaze">Traces of the Raging Blaze</a></</li>
+            <li data-id="playthrough_11_7" class="f_twilight"><img class="resize" src="./img/niohtwilight.png"/><a href="https://nioh2.wiki.fextralife.com/The+Cursed+Castle+Ruins">The Cursed Castle Ruins</a></</li>
+            <li data-id="playthrough_11_8" class="f_twilight"><img class="resize" src="./img/niohtwilight.png"/>Darkness Brewing</li>
+            <li data-id="playthrough_11_9" class="f_twilight"><img class="resize" src="./img/niohtwilight.png"/>The Cradle of the Demon</li>
+            <li data-id="playthrough_11_10" class="f_twilight"><img class="resize" src="./img/niohtwilight.png"/>The Bewitching Tower</li>
+            <li data-id="playthrough_11_11" class="f_twilight"><img class="resize" src="./img/niohtwilight.png"/>The Defiled Sanctuary</li>
+            <li data-id="playthrough_11_12" class="f_twilight"><img class="resize" src="./img/niohtwilight.png"/>The Mystery of Rashomon</li>
+            <li data-id="playthrough_11_13" class="f_twilight"><img class="resize" src="./img/niohtwilight.png"/><a href="https://nioh2.wiki.fextralife.com/The+island+of+Monsters+Blood+on+The+Wind">The Island of Monsters</a></</li>
+          </ul>
+
+          <h3 id="Dojo_Missions"><a href="#Dojo_Missions_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>Dojo & Training Missions<span id="playthrough_totals_12"></span></h3>
+          <ul id="Dojo_Missions_col" class="collapse in">
+            <li data-id="playthrough_12_1" class="f_dojo"><img class="resize" src="./img/niohdojo.png"/><a href="https://nioh2.wiki.fextralife.com/Basic+Actions">Basic Actions</a></li>
+            <li data-id="playthrough_12_2" class="f_dojo"><img class="resize" src="./img/niohdojo.png"/><a href="https://nioh2.wiki.fextralife.com/Yokai+Shift+Controls:+Brute">Yokai Shift Controls: Brute</a></li>
+            <li data-id="playthrough_12_3" class="f_dojo"><img class="resize" src="./img/niohdojo.png"/><a href="https://nioh2.wiki.fextralife.com/Yokai+Shift+Controls:+Feral">Yokai Shift Controls: Feral</a></li>
+            <li data-id="playthrough_12_4" class="f_dojo"><img class="resize" src="./img/niohdojo.png"/><a href="https://nioh2.wiki.fextralife.com/Yokai+Shift+Controls:+Phantom">Yokai Shift Controls: Phantom</a>: </li>
+            <li data-id="playthrough_12_5" class="f_dojo"><img class="resize" src="./img/niohdojo.png"/><a href="https://nioh2.wiki.fextralife.com/Training+Ground">Training Ground</a>: Items are not consumed, unlimited anima, yokai shift testing. Recommended to test builds.</li>
+            <li data-id="playthrough_12_6" class="f_dojo"><img class="resize" src="./img/niohdojo.png"/><a href="https://nioh2.wiki.fextralife.com/The+Way+of+the+Warrior:+Novice">The Way of the Warrior: Novice</a>: </li>
+            <li data-id="playthrough_12_7" class="f_dojo"><img class="resize" src="./img/niohdojo.png"/><a href="https://nioh2.wiki.fextralife.com/The+Way+of+the+Ninja:+Novice">The Way of the Ninja: Novice</a>: </li>
+            <li data-id="playthrough_12_8" class="f_dojo"><img class="resize" src="./img/niohdojo.png"/><a href="https://nioh2.wiki.fextralife.com/The+Way+of+the+Onmyo:+Novice">The Way of the Onmyo: Novice</a>: </li>
+            <li data-id="playthrough_12_9" class="f_dojo"><img class="resize" src="./img/niohdojo.png"/><a href="https://nioh2.wiki.fextralife.com/The+Way+of+the+Warrior:+Adept">The Way of the Warrior: Adept</a>: </li>
+            <li data-id="playthrough_12_10" class="f_dojo"><img class="resize" src="./img/niohdojo.png"/><a href="https://nioh2.wiki.fextralife.com/The+Way+of+the+Ninja:+Adept">The Way of the Ninja: Adept</a>: </li>
+            <li data-id="playthrough_12_11" class="f_dojo"><img class="resize" src="./img/niohdojo.png"/><a href="https://nioh2.wiki.fextralife.com/The+Way+of+the+Onmyo:+Adept">The Way of the Onmyo: Adept</a>: </li>
+            <li data-id="playthrough_12_12" class="f_dojo"><img class="resize" src="./img/niohdojo.png"/><a href="https://nioh2.wiki.fextralife.com/The+Way+of+the+Warrior:+Veteran">The Way of the Warrior: Veteran</a>: </li>
+            <li data-id="playthrough_12_13" class="f_dojo"><img class="resize" src="./img/niohdojo.png"/><a href="https://nioh2.wiki.fextralife.com/The+Way+of+the+Ninja:+Veteran">The Way of the Ninja: Veteran</a>: </li>
+            <li data-id="playthrough_12_14" class="f_dojo"><img class="resize" src="./img/niohdojo.png"/><a href="https://nioh2.wiki.fextralife.com/The+Way+of+the+Onmyo:+Veteran">The Way of the Onmyo: Veteran</a>: </li>
+            <li data-id="playthrough_12_15" class="f_dojo"><img class="resize" src="./img/niohdojo.png"/><a href="https://nioh2.wiki.fextralife.com/Opening+of+the+Mind's+Eye">Opening the Mind's Eye</a>: Sword Mystic Arts</li>
+            <li data-id="playthrough_12_16" class="f_dojo"><img class="resize" src="./img/niohdojo.png"/><a href="https://nioh2.wiki.fextralife.com/Hanzo+the+Demon">Hanzo the Demon</a>: Spear Mystic Arts</li>
+            <li data-id="playthrough_12_17" class="f_dojo"><img class="resize" src="./img/niohdojo.png"/><a href="https://nioh2.wiki.fextralife.com/Mater+of+the+Dual+Blades">Master of the Dual Blades</a>: Dual Blades Mystic Arts</li>
+            <li data-id="playthrough_12_18" class="f_dojo"><img class="resize" src="./img/niohdojo.png"/><a href="https://nioh2.wiki.fextralife.com/The+Unmoving+Mountain">The Unmoving Mountain</a>: Axe Mystic Arts</li>
+            <li data-id="playthrough_12_19" class="f_dojo"><img class="resize" src="./img/niohdojo.png"/><a href="https://nioh2.wiki.fextralife.com/The+Chain+that+Splits+the+Sky">The Chain that Splits the Sky</a>: Kusarigama Mystic Arts</li>
+            <li data-id="playthrough_12_20" class="f_dojo"><img class="resize" src="./img/niohdojo.png"/><a href="https://nioh2.wiki.fextralife.com/Sharp+Eyes">Sharp Eyes</a>: Switchglaive Mystic Arts</li>
+            <li data-id="playthrough_12_21" class="f_dojo"><img class="resize" src="./img/niohdojo.png"/><a href="https://nioh2.wiki.fextralife.com/Like+Lightning">Like Lightning</a>: Tonfa Mystic Arts</li>
+            <li data-id="playthrough_12_22" class="f_dojo"><img class="resize" src="./img/niohdojo.png"/><a href="https://nioh2.wiki.fextralife.com/The+Tengu's+Blade">The Tengu's Blade</a>: Odachi Mystic Arts</li>
+            <li data-id="playthrough_12_23" class="f_dojo"><img class="resize" src="./img/niohdojo.png"/><a href="https://nioh2.wiki.fextralife.com/The+Unstoppable+Whirlwind">The Unstoppable Whirlwind</a>: Hatchets Mystic Arts</li>
+            <li data-id="playthrough_12_24" class="f_dojo"><img class="resize" src="./img/niohdojo.png"/><a href="https://nioh2.wiki.fextralife.com/The+One+Who+Lives+in+the+Shadows">The One Who Lives in the Shadows</a>: Ninjutsu Mystic Arts</li>
+            <li data-id="playthrough_12_25" class="f_dojo"><img class="resize" src="./img/niohdojo.png"/><a href="https://nioh2.wiki.fextralife.com/The+Nine+Symbols">The Nine Symbols</a>: Onmyo Mystic Arts</li>
+            <li data-id="playthrough_12_26" class="f_dojo"><img class="resize" src="./img/niohdojo.png"/><a href="https://nioh2.wiki.fextralife.com/Breaking+Free">Breaking Free</a>: Splitstaff Mystic Arts (The Tengu's Disciple DLC)</li>
+            <li data-id="playthrough_12_27" class="f_dojo"><img class="resize" src="./img/niohdojo.png"/><a href="https://nioh2.wiki.fextralife.com/Strike+Like+a+Yokai">Strike Like a Yokai</a>: Fists Mystic Arts (Darkness in the Capital DLC)</li>
+          </ul>
+
+        </div>
+        <!-- END Walkthrough -->
+      </div>
+
+<!-- Skills Start -->
+      <div class="tab-pane" id="tabSkills">
+        <h2>Unlockable Skills Check List <span id="skills_overall_total"></span></h2>
+        <ul class="table_of_contents">
+          <li><a href="#Skills_Weapons">Weapon Skills</a><span id="skills_nav_totals_1"></span></li>
+          <li><a href="#Skills_Shiftling">Shiftling Skills</a><span id="skills_nav_totals_2"></span></li>
+          <li><a href="#Skills_Ninja">Ninja Skills</a><span id="skills_nav_totals_3"></span></li>
+          <li><a href="#Skills_Onmyo">Onmyo Skills</a><span id="skills_nav_totals_4"></span></li>
+        </ul>
+
+        <div class="form-group">
+          <input type="search" id="item_search" class="form-control" placeholder="Start typing to filter results..." />
+        </div>
+
+        <div id="item_list">
+          <h3 id="Skills_Weapons"><a href="#Skills_Weapons_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://nioh2.wiki.fextralife.com/Swords">Weapons</a> <span id="skills_totals_1"></span></h3>
+          <ul id="Skills_Weapons_col" class="collapse in">
+            <li data-id="skills_1_"><a href=""></a> </li>
+            <li data-id="skills_1_1"><a href="https://nioh2.wiki.fextralife.com/Sacred+Bird+Cry"><strong>Sacred Bird Cry</strong></a>: <a href="https://nioh2.wiki.fextralife.com/Minamoto+no+Yoshitsune">Minamoto no Yoshitsune</a> (<a href="https://nioh2.wiki.fextralife.com/Eternal+Rivals">Eternal Rivals</a>, <a href="https://nioh2.wiki.fextralife.com/Bond+of+the+Blade">Bond of the Blade</a>)</li>
+            <li data-id="skills_1_2"><a href="https://nioh2.wiki.fextralife.com/Sacred+Bird+Flight"><strong>Sacred Bird Flight</a></strong>: <a href="https://nioh2.wiki.fextralife.com/Minamoto+no+Yorimitsu">Minamoto no Yorimitsu</a> (<a href="https://nioh2.wiki.fextralife.com/Suzune+in+the+Flames">Suzune in the Flames</a>, <a href="https://nioh2.wiki.fextralife.com/The+Demon+Slayers">The Demon Slayers</a>)</li>
+            <li data-id="skills_1_3"><strong>[Sword] <a href="https://nioh2.wiki.fextralife.com/Dragon+Fang">Dragon Fang</strong></a>: <a href="https://nioh2.wiki.fextralife.com/Saito+Yoshitatsu+(Boss)">Saito Yoshitatsu</a> (<a href="https://nioh2.wiki.fextralife.com/The+Hollow+Fortress">The Hollow Fortress</a>, <a href="https://nioh2.wiki.fextralife.com/The+Point+of+No+Return">The Point of No Return</a>)</li>
+            <li data-id="skills_1_4"><strong>[Sword] <a href="">True and Through</strong></a>: </li>
+            <li data-id="skills_1_5"><strong>[Sword] <a href="">Severing Spin</strong></a>: </li>
+            <li data-id="skills_1_6"><strong>[Sword] <a href="">Reverse Impact</strong></a>: </li>
+            <li data-id="skills_1_7"><strong>[Sword] <a href="">Kurama Sword Dance</strong></a>: </li>
+            <li data-id="skills_1_8"><strong>[Dual Swords] <a href="https://nioh2.wiki.fextralife.com/Dragon+Claw">Dragon Claw</strong></a>: <a href="https://nioh2.wiki.fextralife.com/Saito+Yoshitatsu+(Boss)">Saito Yoshitatsu</a> (<a href="https://nioh2.wiki.fextralife.com/The+Hollow+Fortress">The Hollow Fortress</a>, <a href="https://nioh2.wiki.fextralife.com/The+Point+of+No+Return">The Point of No Return</a>)</li>
+            <li data-id="skills_1_9"><strong>[Dual Swords] <a href="">Ultimate Sign of the Cross</strong></a>: </li>
+            <li data-id="skills_1_10"><strong>[Dual Swords] <a href="">Double-Headed Slice</strong></a>: </li>
+            <li data-id="skills_1_11"><strong>[Dual Swords] <a href="">Punish the Proud</strong></a>: </li>
+            <li data-id="skills_1_12"><strong>[Spear] <a href="">Triple Threat</strong></a>: <a href="https://nioh2.wiki.fextralife.com/Maeda+Toshiie+(Boss)">Maeda Toshiie</a> (<a href="https://nioh2.wiki.fextralife.com/Ruin+Draws+Near">Ruin Draws Near</a>, <a href="https://nioh2.wiki.fextralife.com/Mataza+of+the+Spear">Mataza of the Spear</a>)</li>
+            <li data-id="skills_1_13"><strong>[Spear] <a href="">Bracing Breeze</strong></a>: <a href="https://nioh2.wiki.fextralife.com/Maeda+Toshiie+(Boss)">Maeda Toshiie</a> (<a href="#Twilight">Ruin Draws Near</a>, <a href="https://nioh2.wiki.fextralife.com/Mataza+of+the+Spear">Mataza of the Spear</a>)</li>
+            <li data-id="skills_1_14"><strong>[Axe] <a href="">Spirit Storm</strong></a>: Obsidian Samurai</li>
+            <li data-id="skills_1_15"><strong>[Kusarigama] <a href="">Water Drop</strong></a>: </li>
+            <li data-id="skills_1_16"><strong>[Kusarigama] <a href="">Second Wind</strong></a>: </li>
+            <li data-id="skills_1_17"><strong>[Odachi] <a href="">Swirling Storm</strong></a>: </li>
+            <li data-id="skills_1_18"><strong>[Odachi] <a href="https://nioh2.wiki.fextralife.com/Dragon+Horn">Dragon Horn</strong></a>: <a href="https://nioh2.wiki.fextralife.com/Saito+Yoshitatsu+(Boss)">Saito Yoshitatsu</a> (<a href="https://nioh2.wiki.fextralife.com/The+Hollow+Fortress">The Hollow Fortress</a>, <a href="https://nioh2.wiki.fextralife.com/The+Point+of+No+Return">The Point of No Return</a>)</li>
+            <li data-id="skills_1_19"><strong>[Tonfa] <a href="">Storm of Strikes</strong></a>: </li>
+            <li data-id="skills_1_20"><strong>[Hatchets] <a href="">Deadly Spiral</strong></a>: </li>
+            <li data-id="skills_1_21"><strong>[Switchglaive] <a href="">Fleeting Edge</strong></a>: </li>
+            <li data-id="skills_1_22"><strong>[Switchglaive] <a href="">Windswept</strong></a>: </li>
+            <li data-id="skills_1_23"><strong>[Switchglaive] <a href="">Arc of Chaos</strong></a>: </li>
+            <li data-id="skills_1_24"><strong>[Splitstaff] <a href="">Roar Power</strong></a>: </li>
+            <li data-id="skills_1_25"><strong>[Fists] <a href="">Tiger Claws</strong></a>: </li>
+          </ul>
+
+          <h3 id="Skills_Shiftling"><a href="#Skills_Shiftling_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://nioh2.wiki.fextralife.com/Swords">Shiftling</a> <span id="skills_totals_2"></span></h3>
+          <ul id="Skills_Shiftling_col" class="collapse in">
+            <li data-id="skills_2_1"><strong>Ferocious Gale</strong>: Otakemaru [Dawn of the Demon / The Cradle of the Demon (twilight mission)]</li>
+            <li data-id="skills_2_2"><strong>Brutal Combustion</strong>: Otakemaru [Dawn of the Demon / The Cradle of the Demon (twilight mission)]</li>
+            <li data-id="skills_2_3"><strong>Phantasmic Burst</strong>: Otakemaru [Dawn of the Demon / The Cradle of the Demon (twilight mission)]</li>
+          </ul>
+
+          <h3 id="Skills_Ninja"><a href="#Skills_Ninja_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://nioh2.wiki.fextralife.com/Swords">Ninja</a> <span id="skills_totals_3"></span></h3>
+          <ul id="Skills_Ninja_col" class="collapse in">
+            <li data-id="skills_3_1"><strong>Exorcist Blade</strong>: Ren Hayabusa [The Dragon Clan]</li>
+            <li data-id="skills_3_2"><strong>Umbral Bullet</strong>: Ren Hayabusa [The Dragon Clan]</li>
+            <li data-id="skills_3_3"><strong>Flame Dragon</strong>: Ren Hayabusa [The Dragon Clan]</li>
+          </ul>
+
+          <h3 id="Skills_Onmyo"><a href="#Skills_Onmyo_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://nioh2.wiki.fextralife.com/Swords">Onmyo</a> <span id="skills_totals_4"></span></h3>
+          <ul id="Skills_Onmyo_col" class="collapse in">
+            <li data-id="skills_4_1"><strong>Luminous Blade Talisman</strong>: Ashiya Doman [Palace of the Damned / A Storm in the Underworld]</li>
+          </ul>
+
+        </div>
+        <!-- Search Zone END -->
+      </div>
+
+        <!-- Smithing Text Start -->
+      <div class="tab-pane" id="tabWeaponSmithingTexts">
+        <h2>Weapon Smithing Text Checklists <span id="smithtext_overall_total"></span></h2>
+        <ul class="table_of_contents">
+          <li><a href="#Smithing_Swords">Swords</a><span id="smithtext_nav_totals_1"></span></li>
+          <li><a href="#Smithing_Dual_Swords">Dual Swords</a><span id="smithtext_nav_totals_2"></span></li>
+          <li><a href="#Smithing_Spears">Spears</a><span id="smithtext_nav_totals_3"></span></li>
+          <li><a href="#Smithing_Axes">Axes</a><span id="smithtext_nav_totals_4"></span></li>
+          <li><a href="#Smithing_Kusarigamas">Kusarigamas</a><span id="smithtext_nav_totals_5"></span></li>
+          <li><a href="#Smithing_Odachis">Odachis</a><span id="smithtext_nav_totals_6"></span></li>
+          <li><a href="#Smithing_Tonfas">Tonfas</a><span id="smithtext_nav_totals_7"></span></li>
+          <li><a href="#Smithing_Hatchets">Hatchets</a><span id="smithtext_nav_totals_8"></span></li>
+          <li><a href="#Smithing_Switchglaives">Switchglaives</a><span id="smithtext_nav_totals_9"></span></li>
+          <li><a href="#Smithing_Splitstaffs">Splitstaffs</a><span id="smithtext_nav_totals_10"></span></li>
+          <li><a href="#Smithing_Fists">Fists</a><span id="smithtext_nav_totals_11"></span></li>
+          <li><a href="#Smithing_Bows">Bows</a><span id="smithtext_nav_totals_12"></span></li>
+          <li><a href="#Smithing_Rifles">Rifles</a><span id="smithtext_nav_totals_13"></span></li>
+          <li><a href="#Smithing_Hand_Cannons">Hand Cannons</a><span id="smithtext_nav_totals_14"></span></li>
+        </ul>
+
+        <div class="form-group">
+          <input type="search" id="item_search" class="form-control" placeholder="Start typing to filter results..." />
+        </div>
+
+        <div id="item_list">
+          <h3 id="Smithing_Swords"><a href="#Smithing_Swords_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://nioh2.wiki.fextralife.com/Swords">Swords</a> <span id="smithtext_totals_1"></span></h3>
+          <ul id="Smithing_Swords_col" class="collapse in">
+            <li data-id="smithtext_1_1"><strong>Wooden Sword</strong>: Tsukuhara Bokuden</li>
+            <li data-id="smithtext_1_2"><strong>Jikkyu Mitsutada</strong>: Oda Nobunaga</li>
+            <li data-id="smithtext_1_3"><strong>Tokagemaru</strong>: Imagawa Yoshimoto / Saito Yoshitatsu</li>
+            <li data-id="smithtext_1_4"><strong>Transient Blade</strong>: Hidetatsu's Dying Wish (Dream of the Strong or higher)</li>
+            <li data-id="smithtext_1_5"><strong>Udoto</strong>: Saito Yoshitatsu</li>
+            <li data-id="smithtext_1_6"><strong>Starcutter Sword</strong>: Obsidian Samurai</li>
+            <li data-id="smithtext_1_7"><strong>Kaikunigo</strong>: Takeda Shingen</li>
+            <li data-id="smithtext_1_8"><strong>Smirkwiper</strong>: Shibata Katsuie</li>
+            <li data-id="smithtext_1_9"><strong>Sohaya Tsurugi</strong>: Kasha/Azai Nagamasa</li>
+            <li data-id="smithtext_1_10"><strong>Azai Ichimonji</strong>: Azai Nagamasa</li>
+            <li data-id="smithtext_1_11"><strong>Haccho Nenbutsu</strong>: Saika Magoichi</li>
+            <li data-id="smithtext_1_12"><strong>Raikiri</strong>: Shuten Doji/ Daidara Bocchi</li>
+            <li data-id="smithtext_1_13"><strong>Wave Swimmer</strong>: Shuten Doji</li>
+            <li data-id="smithtext_1_14"><strong>Akechi Chikakage</strong>: Shuten Doji / Tokichiro</li>
+            <li data-id="smithtext_1_15"><strong>Bizen Kageyasu</strong>: Tsukuhara Bokuden</li>
+            <li data-id="smithtext_1_16"><strong>Swift Hawk</strong>: Kato Danzo</li>
+            <li data-id="smithtext_1_17"><strong>Mikazuki Munechika</strong>: Kashin Koji/Tokichiro (demon form)</li>
+            <li data-id="smithtext_1_18"><strong>Odenta Mitsuyo</strong>: Maeda Toshiie</li>
+            <li data-id="smithtext_1_19"><strong>Onimaru Kunitsuna</strong>: Enenra / Otakemaru/William</li>
+            <li data-id="smithtext_1_20"><strong>Dodanuki Masakuni</strong>: Seven Spears 7 a.k.a. Kato Kiyomasa (last human miniboss wielding spear after shrine near stage boss)</li>
+            <li data-id="smithtext_1_21"><strong>Kusanagi Tsurugi</strong>: Otakemaru (base game)</li>
+            <li data-id="smithtext_1_22"><strong>Demon's Maw</strong>: William/Kashin Koji</li>
+            <li data-id="smithtext_1_23"><strong>Juzumaru Tsunetsugu</strong>: William/Otakemaru (base game)/Kashin Koji</li>
+            <li data-id="smithtext_1_24"><strong>Heshikiri Hasabe</strong>: William</li>
+            <li data-id="smithtext_1_25"><strong>Water God Slayer / Suijingiri Kanemitsu</strong>: Shuten Doji</li>
+            <li data-id="smithtext_1_26"><strong>Hikoemon Ichimonji</strong>: Kasha / Ryomen Sukuna/Saika Magoichi</li>
+            <li data-id="smithtext_1_27"><strong>Ishida Masamune</strong>: Otakemaru (base game)</li>
+            <li data-id="smithtext_1_28"><strong>Usumidori</strong>: Minomoto no Yoshitsune</li>
+            <li data-id="smithtext_1_29"><strong>Dragon Sword</strong>:  Ren Hayabusa</li>
+            <li data-id="smithtext_1_30"><strong>Demon Cutter</strong>: Watanbe no Tsuna</li>
+            <li data-id="smithtext_1_31"><strong>Kenmyoren</strong>: Nightmare Bringer</li>
+            <li data-id="smithtext_1_32"><strong>Dojikiri Yasutsuna</strong>: Minamoto no Yorimitsu</li>
+            <li data-id="smithtext_1_33"><strong>Demon Horde Katana</strong>: Nioh 2 Deluxe Edition</li>
+          </ul>
+
+          <h3 id="Smithing_Dual_Swords"><a href="#Smithing_Dual_Swords_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://nioh2.wiki.fextralife.com/Swords">Dual Swords</a> <span id="smithtext_totals_2"></span></h3>
+          <ul id="Smithing_Dual_Swords_col" class="collapse in">
+            <li data-id="smithtext_2_1"><strong>Wooden Dual Swords</strong>: </li>
+            <li data-id="smithtext_2_2"><strong>Basket Blade & Boar-Cutter</strong>: </li>
+            <li data-id="smithtext_2_3"><strong>Regal Lion & Bone Eater (Lion Lord & Bone Eater)</strong>: </li>
+            <li data-id="smithtext_2_4"><strong>Tarobo Kanemitsu & Rapier</strong>: </li>
+            <li data-id="smithtext_2_5"><strong>Ichigo Hitofuri & Oyako Toshiro</strong>: </li>
+            <li data-id="smithtext_2_6"><strong>Candlestick Slicer & Ridged Rapier (Shokudaikiri Mitsutada & Shinogito Shiro)</strong>: </li>
+            <li data-id="smithtext_2_7"><strong>Little Crow & Quickdraw</strong>: </li>
+            <li data-id="smithtext_2_8"><strong>Ogo & Nagamei Masamune</strong>: </li>
+            <li data-id="smithtext_2_9"><strong>Great Kanehira Sword & Nightingale</strong>: </li>
+            <li data-id="smithtext_2_10"><strong>Bamboo Cutter & Bone Feaster</strong>: </li>
+            <li data-id="smithtext_2_11"><strong>Fudo Kuniyuki & Yagen Toshiro</strong>: </li>
+            <li data-id="smithtext_2_12"><strong>Wisdom Sutra Sword & Plane Cutter (Daihannya Nagamitsu & Kannagiri)</strong>: </li>
+            <li data-id="smithtext_2_13"><strong>Dual Bloodstained Cleavers</strong>: </li>
+            <li data-id="smithtext_2_14"><strong>Weathered Bone & Bleached Twig</strong>: </li>
+            <li data-id="smithtext_2_15"><strong>Yamanba's Knives</strong>: </li>
+            <li data-id="smithtext_2_16"><strong>Sozasamonji Matsukurago</strong>: </li>
+            <li data-id="smithtext_2_17"><strong>Shichisei & Heishishorin (Big Dipper Blade & Heishishorin-ken)</strong>: </li>
+            <li data-id="smithtext_2_18"><strong>Tsuruga Masamune & Hocho Toshiro</strong>: </li>
+            <li data-id="smithtext_2_19"><strong>Chi-Azamaru</strong>: </li>
+            <li data-id="smithtext_2_20"><strong>Bloodsucker & Spider Cutter</strong>: </li>
+            <li data-id="smithtext_2_21"><strong>Daitoren & Shotoren</strong>: </li>
+            <li data-id="smithtext_2_22"><strong>Beardcutter and Hobbler</strong>: </li>
+            <li data-id="smithtext_2_23"><strong>Demon Horde Dual Katana</strong>: </li>
+          </ul>
+
+          <h3 id="Smithing_Spears"><a href="#Smithing_Spears_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://nioh2.wiki.fextralife.com/Swords">Spears</a> <span id="smithtext_totals_3"></span></h3>
+          <ul id="Smithing_Spears_col" class="collapse in">
+            <li data-id="smithtext_3_1"><strong>Wooden Spear</strong>: </li>
+            <li data-id="smithtext_3_2"><strong>Bonepile Spear</strong>: </li>
+            <li data-id="smithtext_3_3"><strong>Cross Spear</strong>: </li>
+            <li data-id="smithtext_3_4"><strong>Torch Spear</strong>: </li>
+            <li data-id="smithtext_3_5"><strong>Coin Threader</strong>: </li>
+            <li data-id="smithtext_3_6"><strong>Koroka Spear</strong>: </li>
+            <li data-id="smithtext_3_7"><strong>Tombokiri</strong>: </li>
+            <li data-id="smithtext_3_8"><strong>Red Demon Spear</strong>: </li>
+            <li data-id="smithtext_3_9"><strong>Realmtaker Spear</strong>: </li>
+            <li data-id="smithtext_3_10"><strong>Mataza's Long Spear</strong>: </li>
+            <li data-id="smithtext_3_11"><strong>Ningen Mukotsu</strong>: </li>
+            <li data-id="smithtext_3_12"><strong>Hanzo the Demon's Spear</strong>: </li>
+            <li data-id="smithtext_3_13"><strong>Otegine</strong>: </li>
+            <li data-id="smithtext_3_14"><strong>Vermilion Spear</strong>: </li>
+            <li data-id="smithtext_3_15"><strong>Yamauba Spear</strong>: </li>
+            <li data-id="smithtext_3_16"><strong>Hinomotogo</strong>: </li>
+            <li data-id="smithtext_3_17"><strong>Tiger of Higo's Spear</strong>: </li>
+            <li data-id="smithtext_3_18"><strong>Great Chidori Cross Spear</strong>: </li>
+            <li data-id="smithtext_3_19"><strong>Great Holly Spear (Great Halberd of Hihiragi)</strong>: </li>
+            <li data-id="smithtext_3_20"><strong>Sakon's Spear</strong>: </li>
+            <li data-id="smithtext_3_21"><strong>Swan Spear</strong>: </li>
+            <li data-id="smithtext_3_22"><strong>Bishamon Spear</strong>: </li>
+            <li data-id="smithtext_3_23"><strong>Hayakaze Spear</strong>: </li>
+            <li data-id="smithtext_3_24"><strong>Demon Horde Spear</strong>: </li>
+          </ul>
+
+          <h3 id="Smithing_Axes"><a href="#Smithing_Axes_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://nioh2.wiki.fextralife.com/Swords">Axes</a> <span id="smithtext_totals_4"></span></h3>
+          <ul id="Smithing_Axes_col" class="collapse in">
+            <li data-id="smithtext_4_1"><strong>Demon's Axe</strong>: </li>
+            <li data-id="smithtext_4_2"><strong>Wooden Axe</strong>: </li>
+            <li data-id="smithtext_4_3"><strong>Ippon-Datara's Hammer</strong>: </li>
+            <li data-id="smithtext_4_4"><strong>Kintaro's Axe</strong>: </li>
+            <li data-id="smithtext_4_5"><strong>Gozutenno's Axe</strong>: </li>
+            <li data-id="smithtext_4_6"><strong>Ryomen Sukuna's Axe</strong>: </li>
+            <li data-id="smithtext_4_7"><strong>Holy Axe</strong>: </li>
+            <li data-id="smithtext_4_8"><strong>Shuten Doji's Club</strong>: </li>
+            <li data-id="smithtext_4_9"><strong>Slayer's Axe</strong>: </li>
+            <li data-id="smithtext_4_10"><strong>Ame-no-Mahitotsu's Axe</strong>: </li>
+            <li data-id="smithtext_4_11"><strong>Genno's Hammer</strong>: </li>
+            <li data-id="smithtext_4_12"><strong>Demon God Hammer</strong>: </li>
+            <li data-id="smithtext_4_13"><strong>Benkei's Axe</strong>: </li>
+            <li data-id="smithtext_4_14"><strong>Blessed Vajra Hammer</strong>: </li>
+            <li data-id="smithtext_4_15"><strong>Gojinka Hammer</strong>: </li>
+            <li data-id="smithtext_4_16"><strong>Demon Horde Axe</strong>: </li> 
+          </ul> 
+
+          <h3 id="Smithing_Kusarigamas"><a href="#Smithing_Kusarigamas_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://nioh2.wiki.fextralife.com/Swords">Kusarigamas</a> <span id="smithtext_totals_5"></span></h3>
+          <ul id="Smithing_Kusarigamas_col" class="collapse in">
+            <li data-id="smithtext_5_1"><strong>Wooden Kusarigama</strong>:</li>
+            <li data-id="smithtext_5_2"><strong>Rotten Rope Cutter</strong>:</li>
+            <li data-id="smithtext_5_3"><strong>Will-o'-Wisp Blade</strong>:</li>
+            <li data-id="smithtext_5_4"><strong>Kawanami Kusarigama</strong>:</li>
+            <li data-id="smithtext_5_5"><strong>Nightstorm Kusarigama</strong>:</li>
+            <li data-id="smithtext_5_6"><strong>Earthfall Kusarigama</strong>:</li>
+            <li data-id="smithtext_5_7"><strong>Snowmelt Kusarigama</strong>:</li>
+            <li data-id="smithtext_5_8"><strong>Tobikura Kusarigama</strong>:</li>
+            <li data-id="smithtext_5_9"><strong>Shishido Kusarigama</strong>:</li>
+            <li data-id="smithtext_5_10"><strong>Thunder God Kusarigama (Narukami)</strong>:</li>
+            <li data-id="smithtext_5_11"><strong>Mitsuyo Kusarigama</strong>:</li>
+            <li data-id="smithtext_5_12"><strong>Suwa Myojin Sickle</strong>:</li>
+            <li data-id="smithtext_5_13"><strong>Fuki's Kusarigama</strong>:</li>
+            <li data-id="smithtext_5_14"><strong>Demon Horde Kusarigama</strong>:</li>
+          </ul>
+
+          <h3 id="Smithing_Odachis"><a href="#Smithing_Odachis_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://nioh2.wiki.fextralife.com/Swords">Odachis</a> <span id="smithtext_totals_6"></span></h3>
+          <ul id="Smithing_Odachis_col" class="collapse in">
+            <li data-id="smithtext_6_1"><strong>Wooden Odachi</strong>: </li>
+            <li data-id="smithtext_6_2"><strong>Ippon-Datara's Odachi</strong>: </li>
+            <li data-id="smithtext_6_3"><strong>Bloodspider Blade</strong>: </li>
+            <li data-id="smithtext_6_4"><strong>Bloodstained Blade</strong>: </li>
+            <li data-id="smithtext_6_5"><strong>Taro Tachi</strong>: </li>
+            <li data-id="smithtext_6_6"><strong>Jiro Tachi</strong>: </li>
+            <li data-id="smithtext_6_7"><strong>Kamui</strong>: </li>
+            <li data-id="smithtext_6_8"><strong>Ryomen Sukuna's Sword</strong>: </li>
+            <li data-id="smithtext_6_9"><strong>Sekishu Kazusada</strong>: </li>
+            <li data-id="smithtext_6_10"><strong>Firefly Blade</strong>: </li>
+            <li data-id="smithtext_6_11"><strong>Great Kanemitsu</strong>: </li>
+            <li data-id="smithtext_6_12"><strong>Futsunomitama</strong>: </li>
+            <li data-id="smithtext_6_13"><strong>The Drying Pole</strong>: </li>
+            <li data-id="smithtext_6_14"><strong>Nene Slayer</strong>: </li>
+            <li data-id="smithtext_6_15"><strong>Stone Splitter</strong>: </li>
+            <li data-id="smithtext_6_16"><strong>Black Lacquer Long Sword</strong>: </li>
+            <li data-id="smithtext_6_17"><strong>Demon Horde Odachi</strong>: </li>
+          </ul>
+
+          <h3 id="Smithing_Tonfas"><a href="#Smithing_Tonfas_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://nioh2.wiki.fextralife.com/Swords">Tonfas</a> <span id="smithtext_totals_7"></span></h3>
+          <ul id="Smithing_Tonfas_col" class="collapse in">
+            <li data-id="smithtext_7_1"><strong>Wooden Tonfa</strong>: </li>
+            <li data-id="smithtext_7_2"><strong>White Bone Spirit Tonfa</strong>: </li>
+            <li data-id="smithtext_7_3"><strong>Double-Headed Snake Tonfa</strong>: </li>
+            <li data-id="smithtext_7_4"><strong>Sarutobi's Gunsticks</strong>: </li>
+            <li data-id="smithtext_7_5"><strong>Twin Dragon Tonfa</strong>: </li>
+            <li data-id="smithtext_7_6"><strong>Yin-Yang Tonfa</strong>: </li>
+            <li data-id="smithtext_7_7"><strong>Seventh Sword Tonfa</strong>: </li>
+            <li data-id="smithtext_7_8"><strong>Vajra Tonfa</strong>: </li>
+            <li data-id="smithtext_7_9"><strong>Lost kingdom Tonfa</strong>: </li>
+            <li data-id="smithtext_7_10"><strong>Pagoda Tonfa</strong>: </li>
+            <li data-id="smithtext_7_11"><strong>Searing Bolt Tonfa</strong>: </li>
+            <li data-id="smithtext_7_12"><strong>Demon Horde Tonfa</strong>: </li> 
+          </ul>
+
+          <h3 id="Smithing_Hatchets"><a href="#Smithing_Hatchets_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://nioh2.wiki.fextralife.com/Swords">Hatchets</a> <span id="smithtext_totals_8"></span></h3>
+          <ul id="Smithing_Hatchets_col" class="collapse in">
+            <li data-id="smithtext_8_1"><strong>Wooden Hatchets</strong>: </li>
+            <li data-id="smithtext_8_2"><strong>Radiant Flame</strong>: </li>
+            <li data-id="smithtext_8_3"><strong>Iceberg</strong>: </li>
+            <li data-id="smithtext_8_4"><strong>Urn Splitter Hatchets</strong>: </li>
+            <li data-id="smithtext_8_5"><strong>Echoing Thunder</strong>: </li>
+            <li data-id="smithtext_8_6"><strong>Zenki and Goki</strong>: </li>
+            <li data-id="smithtext_8_7"><strong>Barbarian's Hatchets</strong>: </li>
+            <li data-id="smithtext_8_8"><strong>Sun and Moon Hatchets</strong>: </li>
+            <li data-id="smithtext_8_9"><strong>Wave Cutter Hatchets</strong>: </li>
+            <li data-id="smithtext_8_10"><strong>Black Rain & Thunder</strong>: </li>
+            <li data-id="smithtext_8_11"><strong>Demon Horde Hatchets</strong>: </li>
+          </ul>
+
+          <h3 id="Smithing_Switchglaives"><a href="#Smithing_Switchglaives_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://nioh2.wiki.fextralife.com/Swords">Switchglaives</a> <span id="smithtext_totals_9"></span></h3>
+          <ul id="Smithing_Switchglaives_col" class="collapse in">
+            <li data-id="smithtext_9_1"><strong>Wooden Switchglaive</strong>: </li>
+            <li data-id="smithtext_9_2"><strong>Seething Dragon</strong>: </li>
+            <li data-id="smithtext_9_3"><strong>Sasayuki</strong>: </li>
+            <li data-id="smithtext_9_4"><strong>Evil-Crusher Switchglaive</strong>: </li>
+            <li data-id="smithtext_9_5"><strong>Black Lotus</strong>: </li>
+            <li data-id="smithtext_9_6"><strong>Raijin's Claw</strong>: </li>
+            <li data-id="smithtext_9_7"><strong>Watatsumi's Watch</strong>: </li>
+            <li data-id="smithtext_9_8"><strong>Phoenix Wing</strong>: </li>
+            <li data-id="smithtext_9_9"><strong>Kiryoki's Switchglaive</strong>: </li>
+            <li data-id="smithtext_9_10"><strong>Stone's Bane</strong>: </li>
+            <li data-id="smithtext_9_11"><strong>Myojin Scythe</strong>: </li>
+            <li data-id="smithtext_9_12"><strong>Tate Eboshi's Switchglaive</strong>: </li>
+            <li data-id="smithtext_9_13"><strong>Demon Horde Switchglaive</strong>: </li>
+          </ul>
+
+          <h3 id="Smithing_Splitstaffs"><a href="#Smithing_Splitstaffs_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://nioh2.wiki.fextralife.com/Swords">Splitstaffs</a> <span id="smithtext_totals_10"></span></h3>
+          <ul id="Smithing_Splitstaffs_col" class="collapse in">
+            <li data-id="smithtext_10_1"><strong>Wooden Splitstaff</strong>: </li>
+            <li data-id="smithtext_10_2"><strong>Benkei's Splitstaff</strong>: </li>
+            <li data-id="smithtext_10_3"><strong>Kiryoki's Splitstaff</strong>: </li>
+            <li data-id="smithtext_10_4"><strong>Vajra Splitstaff</strong>: </li>
+            <li data-id="smithtext_10_5"><strong>Flashfire Splitstaff</strong>: </li>
+            <li data-id="smithtext_10_6"><strong>Tengu's Khakkhara</strong>: </li>
+            <li data-id="smithtext_10_7"><strong>Evil-Crusher Splitstaff</strong>: </li>
+            <li data-id="smithtext_10_8"><strong>Tempest Spiltstaff</strong>: </li>
+            <li data-id="smithtext_10_9"><strong>Dragon King Splitstaff</strong>: </li>
+            <li data-id="smithtext_10_10"><strong>Kobo Daishi's Khakkara</strong>: </li>     
+          </ul>
+
+          <h3 id="Smithing_Fists"><a href="#Smithing_Fists_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://nioh2.wiki.fextralife.com/Swords">Fists</a> <span id="smithtext_totals_11"></span></h3>
+          <ul id="Smithing_Fists_col" class="collapse in">
+            <li data-id="smithtext_11_1"><strong>Wooden Fists</strong>: </li>
+            <li data-id="smithtext_11_2"><strong>Falcon Claws</strong>: </li>
+            <li data-id="smithtext_11_3"><strong>Thunderous Fists</strong>: </li>
+            <li data-id="smithtext_11_4"><strong>White Lotus Fists</strong>: </li>
+            <li data-id="smithtext_11_5"><strong>Demon Arm Fists</strong>: </li>
+            <li data-id="smithtext_11_6"><strong>Frost Blossom Clawed Fists</strong>: </li>
+            <li data-id="smithtext_11_7"><strong>Tsuchigumo Clawed Fists</strong>: </li>
+            <li data-id="smithtext_11_8"><strong>Raging Fire Clawed Fists</strong>: </li>
+            <li data-id="smithtext_11_9"><strong>Scampuss Fists</strong>: </li>
+            <li data-id="smithtext_11_10"><strong>Exorcist Fists</strong>: </li>
+          </ul>
+
+          <h3 id="Smithing_Bows"><a href="#Smithing_Bows_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://nioh2.wiki.fextralife.com/Swords">Bows</a> <span id="smithtext_totals_12"></span></h3>
+          <ul id="Smithing_Bows_col" class="collapse in">
+            <li data-id="smithtext_12_1"><strong>Ryomen Sukuna's Bow</strong>: </li>
+            <li data-id="smithtext_12_2"><strong>Master Archer's Bow</strong>: </li>
+            <li data-id="smithtext_12_3"><strong>Warrior of the West Bow</strong>: </li>
+            <li data-id="smithtext_12_4"><strong>Hornthrust Bow / Tsunonotsuki Bow</strong>: </li>
+            <li data-id="smithtext_12_5"><strong>Fan-Piercing Bow</strong>: </li>
+            <li data-id="smithtext_12_6"><strong>Five-Man Bow</strong>: </li>
+            <li data-id="smithtext_12_7"><strong>Marksman's Bow</strong>: </li>
+            <li data-id="smithtext_12_8"><strong>Seer's Bow</strong>: </li>
+            <li data-id="smithtext_12_9"><strong>Raishodo</strong>: </li>
+          </ul>
+
+          <h3 id="Smithing_Rifles"><a href="#Smithing_Rifles_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://nioh2.wiki.fextralife.com/Swords">Rifles</a> <span id="smithtext_totals_13"></span></h3>
+          <ul id="Smithing_Rifles_col" class="collapse in">
+            <li data-id="smithtext_13_1"><strong>Ravenwing Rifle</strong>: </li>
+          </ul>
+
+          <h3 id="Smithing_Hand_Cannons"><a href="#Smithing_Hand_Cannons_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://nioh2.wiki.fextralife.com/Swords">Hand Cannons</a> <span id="smithtext_totals_14"></span></h3>
+          <ul id="Smithing_Hand_Cannons_col" class="collapse in">
+            <li data-id="smithtext_14_1"><strong>placeholder</strong>: placeholder</li>
+          </ul>
+
+        </div>
+        <!-- Search Zone END -->
+      </div>
+
+      <!-- CHECKLIST START -->
+      <div class="tab-pane" id="tabChecklists">
+        <h2>Achievement Checklists <span id="checklist_overall_total"></span></h2>
+        <ul class="table_of_contents">
+          <li><a href="#You_Are_Nioh">You Are Nioh</a>: Obtain all achievements <span id="checklist_nav_totals_1"></span></li>
+          <li><a href="#Missions">Missions</a>: Achievements acquired through missions <span id="checklist_nav_totals_2"></span></li>
+          <li><a href="#Kodama_Achievements">Kodama Leader</a> <span id="checklist_nav_totals_8"></span></li>
+          <li><a href="#Mystic_Arts">Weapon/Onmyo/Ninjutsu Achievements</a>: Mystic art acquisitions <span id="checklist_nav_totals_3"></span></li>
+          <li><a href="#Tengu_Disciple">The Tengu's Disciple</a> Achievements<span id="checklist_nav_totals_4"></span></li>
+          <li><a href="#Darkness">Darkness in the Capital</a> Achievements<span id="checklist_nav_totals_5"></span></li>
+          <li><a href="#First_Samurai">The First Samurai</a> Achievements<span id="checklist_nav_totals_6"></span></li>
+          <li><a href="#Misc_Achievements">Misc Achievements</a>: Various other achievements <span id="checklist_nav_totals_7"></span></li>
+          <li><a href="#Kodama">Kodama Leader</a> <span id="checklist_nav_totals_8"></span></li>
+          <li><a href="#Guardian">Friend of Guardians</a> <span id="checklist_nav_totals_9"></span></li>
+          <li><a href="#Spa_Lover">Spa Lover</a>: Bathe in all hot springs <span id="checklist_nav_totals_10"></span></li>
+          <li><a href="#Soul_Searcher">Soul Searcher</a>: Obtain all soul cores from yokai in the base game<span id="checklist_nav_totals_11"></span></li>
+        </ul>
+
+        <div class="form-group">
+          <input type="search" id="item_search" class="form-control" placeholder="Start typing to filter results..." />
+        </div>
+
+        <div id="item_list">
+          <h3 id="You_Are_Nioh_Achievements"><a href="#You_Are_Nioh_Achievements_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>You Are Nioh <span id="checklist_totals_1"></span></h3>
+          <ul id="You_Are_Nioh_Achievements_col" class="collapse in">
+            <li data-id="checklist_1_1">Acquire every other achievement</li>
+          </ul>
+
+          <h3 id="Missions_Achievements"><a href="#Missions_Achievements_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>Missions: Achievements acquired through completion, or special mission objectives <span id="checklist_totals_2"></span></h3>
+          <ul id="Missions_Achievements_col" class="collapse in">
+            <li data-id="checklist_2_1"><strong>Samurai of Legend</strong>: Complete all missions on any difficulty (Does not necessarily have to be done on the *same* difficulty.</li>
+            <li data-id="checklist_2_14"><strong>Bold Wrangler</strong>: Defeat the optional Gozuki in The Village of Cursed Blossoms</li>
+            <li data-id="checklist_2_2"><strong>Dawn of a Dream</strong>: Complete <a href="https://nioh2.wiki.fextralife.com/The+Village+of+Cursed+Blossoms">The Village of Cursed Blossoms</a>.</li>
+            <li data-id="checklist_2_10"><strong>Devout Believer</strong>: Complete The Viper's Sanctum without destroying any statues of Shirohami.</li>
+            <li data-id="checklist_2_3"><strong>An Electrifying Triumph</strong>: Complete The Hidden Monsters of Okehazama</li>
+            <li data-id="checklist_2_4"><strong>Hideyoshi</strong>: Unlocks during transition from Soaring to Shadow region.</li>
+            <li data-id="checklist_2_15"><strong>Feather Buster</strong>: Deplete the health of every Tatarimokke on the way though A Way Out.</li>
+            <li data-id="checklist_2_16"><strong>Schemer</strong>: Cause Gyuki to attack the dam in Pervading Waters.</li>
+            <li data-id="checklist_2_11"><strong>Hidden Hopes</strong>: Interact with all the Usura-Hicho in The Frenzied Blaze.</li>
+            <li data-id="checklist_2_5"><strong>The Paths We Tread</strong>: Complete The Sun Sets on Mount Tenno.</li>
+            <li data-id="checklist_2_17"><strong>Peal of Ten Thousand Bells</strong>: Ring all 6 bells in Ruin Draws Near.</li>
+            <li data-id="checklist_2_6"><strong>Dream's Toll</strong>: Complete The Two Faces of Hospitality</li>
+            <li data-id="checklist_2_12"><strong>Clean Sweep</strong>: Destroy all Amrita Shards in The High-Spirited Demon</li>
+            <li data-id="checklist_2_7"><strong>Mother and Child</strong>: Complete The High-Spirited Demon</li>
+            <li data-id="checklist_2_13"><strong>Seven Wonders</strong>: Defeat each of the Seven Spears (humans with dialogue when you kill them) in Cherry Blossom Viewing in Daigo.</li>
+            <li data-id="checklist_2_8"><strong>What is Written</strong>: Complete Sealed Fate.</li>
+            <li data-id="checklist_2_9"><strong>Dream Within a Dream</strong>: </li>
+            <li data-id="checklist_2_18"><strong>Twilight walker</strong>: Complete a <a href="https://nioh2.wiki.fextralife.com/Twilight+Missions">Twilight Mission</a>.</li>
+
+          </ul>
+
+          <h3 id="Kodama_Achievements"><a href="#Kodama_Achievements_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>Kodama Leader: Collect all 150 Kodama in the base game<span id="checklist_totals_8"></span></h3>
+          <ul id="Kodama_Achievements_col" class="collapse in">
+            <li data-id="checklist_8_"><strong></strong>: </li>
+            <li data-id="checklist_8_1"><strong>Ryomen Sukuna's Bow</strong>:</li>
+            <li data-id="checklist_8_2"><strong></strong>: </li>
+          </ul>
+
+          <h3 id="Guardian_Achievements"><a href="#Guardian_Achievements_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>Friend of Guardians: Collect all Guardian Spirits in the base game <span id="checklist_totals_9"></span></h3>
+          <ul id="Guardian_Achievements_col" class="collapse in">
+            <li data-id="checklist_9_"><strong></strong>: </li>
+            <li data-id="checklist_9_1"><strong>Ryomen Sukuna's Bow</strong>:</li>
+            <li data-id="checklist_9_2"><strong></strong>: </li>
+          </ul>
+
+
+          <h3 id="Spa_Achievements"><a href="#Spa_Achievements_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>Spa Lover: Bathe in all hot springs in the base game <span id="checklist_totals_10"></span></h3>
+          <ul id="Spa_Achievements_col" class="collapse in">
+            <li data-id="checklist_9_"><strong></strong>: </li>
+            <li data-id="checklist_9_1"><strong>Ryomen Sukuna's Bow</strong>:</li>
+            <li data-id="checklist_9_2"><strong></strong>: </li>
+          </ul>
+
+          <h3 id="Soul_Searcher_Achievements"><a href="#Soul_Searcher_Achievements_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>Soul Searcher: Collect soul cores from all available sources in the base game <span id="checklist_totals_11"></span></h3>
+          <ul id="Soul_Searcher_Achievements_col" class="collapse in">
+            <li data-id="checklist_9_"><strong></strong>: </li>
+            <li data-id="checklist_9_1"><strong>Ryomen Sukuna's Bow</strong>:</li>
+            <li data-id="checklist_9_2"><strong></strong>: </li>
+          </ul>
+
+          <h3 id="Mystic_Arts_Achievements"><a href="#Mystic_Arts_Achievements_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>Weapon/Onmyo/Ninjutsu Mystic Arts <span id="checklist_totals_3"></span></h3>
+          <ul id="Mystic_Arts_Achievements_col" class="collapse in">
+            <li data-id="checklist_3_1"><strong>Sword Master</strong>: Acquire mystic art from sword skill tree.</li>
+            <li data-id="checklist_3_2"><strong>Dual Swords Master</strong>: Acquire mystic art from dual swords skill tree.</li>
+            <li data-id="checklist_3_3"><strong>Spear Master</strong>: Acquire mystic art from spear skill tree.</li>
+            <li data-id="checklist_3_4"><strong>Axe Master</strong>: Acquire mystic art from axe skill tree.</li>
+            <li data-id="checklist_3_5"><strong>Kusarigama Master</strong>: Acquire mystic art from kusarigama skill tree.</li>
+            <li data-id="checklist_3_6"><strong>Odachi Master</strong>: Acquire mystic art from odachi skill tree.</li>
+            <li data-id="checklist_3_7"><strong>Tonfa Master</strong>: Acquire mystic art from tonfa skill tree.</li>
+            <li data-id="checklist_3_8"><strong>Hatchet Master</strong>: Acquire mystic art from hatchet skill tree.</li>
+            <li data-id="checklist_3_9"><strong>Switchglaive Master</strong>: Acquire mystic art from switchglaive skill tree.</li>
+            <li data-id="checklist_3_10"><strong>Ninjutsu Master</strong>: Acquire mystic art from ninjutsu skill tree.</li>
+            <li data-id="checklist_3_11"><strong>Onmyo Master</strong>: Acquire mystic art from onmyo magic skill tree.</li>
+            <li data-id="checklist_3_12"><strong>Splitstaff Master</strong>: (The Tengu's Disciple DLC) Acquire mystic art from splitstaff skill tree.</li>
+            <li data-id="checklist_3_13"><strong>Fists Master</strong>: (Darkness in the Capital DLC) Acquire mystic art from fists skill tree.</li>
+          </ul>
+
+          <h3 id="Tengu_Disciple_Achievements"><a href="#Tengu_Disciple_Achievements_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>The Tengu's Disciple (DLC) <span id="checklist_totals_4"></span></h3>
+          <ul id="Tengu_Disciple_Achievements_col" class="collapse in">
+            <li data-id="checklist_4_"><strong>A Kindred Light</strong>: Complete A Song to Calm the Storm.</li>
+            <li data-id="checklist_4_"><strong>The Will to Fight</strong>: Complete Eternal Rivals.</li>
+            <li data-id="checklist_4_"><strong>Casting Out the Shadows</strong>: Complete Shadows Creep in Kurama.</li>
+            <li data-id="checklist_4_"><strong>Genpei Samurai</strong>: Complete all missions in The Tengu's Disciple.</li>
+            <li data-id="checklist_4_"><strong>Genpei Demon</strong>: Complete all missions in The Tengu's Disciple (Dream of the Demon+).</li>
+            <li data-id="checklist_4_"><strong>Kodama General</strong>: Find all 456456456 Kodama in The Tengu's Disciple</li>
+            <li data-id="checklist_4_"><strong>Poetry in Motion</strong>: Collect all 5495739 of Saigyo's Poetry Cards</li>
+            <li data-id="checklist_4_"><strong>Spa Addict</strong>: Bathe in every hot spring in The Tengu's Disciple</li>
+            <li data-id="checklist_4_"><strong>Sundering Arrows</strong>: Use all 5530457 giant bows in A Song to Calm the Storm</li>
+            <li data-id="checklist_4_"><strong>Heretical Glow</strong>: Destrol 150 Amrita shards in Eternal Rivals.</li>
+            <li data-id="checklist_4_"><strong>Tengu Crusher</strong>: Knock Yoshitsune of his perch on the bridge in Eternal Rivals.</li>
+            <li data-id="checklist_4_"><strong>Demonic Parade-Goer</strong>: Complete 10 picture scroll missions.</li>
+  
+          </ul>
+
+          <h3 id="Darkness_Achievements"><a href="#Darkness_Achievements_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>Darkness in the Capital (DLC) <span id="checklist_totals_5"></span></h3>
+          <ul id="Darkness_Achievements_col" class="collapse in">
+            <li data-id="checklist_5_"><strong>The Demon and the Phoenix</strong>: Complete Suzune in the Flames</li>
+            <li data-id="checklist_5_"><strong>Guardian of the Gate</strong>: Complete The Blighted Gate</li>
+            <li data-id="checklist_5_"><strong>What Must Be Done</strong>: Complete Palace of the Damned.</li>
+            <li data-id="checklist_5_"><strong>Heian Samurai</strong>: Complete all missions in Darkness in the Capital.</li>
+            <li data-id="checklist_5_"><strong>Heain Demon</strong>: Complete all missions in Darkness in the Capital (Dream of the Demon+).</li>
+            <li data-id="checklist_5_"><strong>Kodama Pathfinder</strong>: Find all 50395734 Kodama in Darkness in the Capital.</li>
+            <li data-id="checklist_5_"><strong>The Flame That Lights the Darkness</strong>: Light all 453 fire altars in Palace of the Damned.</li>
+            <li data-id="checklist_5_"><strong>Spa Fanatic</strong>: Bathe in every hot spring in Darkness in the Capital.</li>
+            <li data-id="checklist_5_"><strong>The Ultimate Recognition</strong>: Complete The Dragon's Kin</li>
+            <li data-id="checklist_5_"><strong>Tsuchigumo Exterminated</strong>: Defeat Tsuchigumo while equipped with a piece of equipment bearing the Dragon Ninja effect.</li>
+            <li data-id="checklist_5_"><strong>Behind the Bamboo Blinds</strong>: Cause Oborogurama to release amrite from its carriage. (Burst counter seems to be easiest method. Otherwise, attack head and break golden glowing horns/eyes/tongue.</li>
+            <li data-id="checklist_5_"><strong>True Atonement</strong>: Fully max a Stone of Penance bar.</li>
+          </ul>
+
+          <h3 id="First_Samurai_Achievements"><a href="#First_Samurai_Achievements_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>The First Samurai (DLC) <span id="checklist_totals_6"></span></h3>
+          <ul id="First_Samurai_Achievements_col" class="collapse in">
+            <li data-id="checklist_6_2"><strong>The Original Samurai</strong>: Complete all missions in The First Samurai</li>
+            <li data-id="checklist_6_3"><strong>The Original Demon</strong>: Complete all missions in The First Samurai (Dream of the Demon+)</li>
+            <li data-id="checklist_6_4"><strong>Cleansing Caskmaster</strong>: Use a cask of holy water on an enemy in Dawn of the Demon.</li>
+            <li data-id="checklist_6_5"><strong>All Things Begin</strong>: Complete Dawn of the Demon.</li>
+            <li data-id="checklist_6_6"><strong>A Friend Indeed</strong>: Save all Mujina in A Distant Dream.</li>
+            <li data-id="checklist_6_7"><strong>The Demons' Den</strong>: Defeat the all four demons in A Distant Dream.</li>
+            <li data-id="checklist_6_8"><strong>A Dream of Peace</strong>: Complete A Distant Dream.</li>
+            <li data-id="checklist_6_9"><strong>Way of the Vanquisher</strong>: Complete Against all Comers (Dream of the Demon+)</li>
+            <li data-id="checklist_6_10"><strong>Scent of Danger</strong>: Complete The Alluring Ancient.</li>
+            <li data-id="checklist_6_11"><strong>Honoring the Dead</strong>: Collect all of Kukai's Brushes in Words of Respite.</li>
+            <li data-id="checklist_6_12"><strong>The Path We've Taken</strong>: Summon Tokichiro, Minamoto no Yoshitsune, and Minamoto no Yorimitsu from Benevolent Graves in A Familiar Glow.</li>
+            <li data-id="checklist_6_13"><strong>Spirit Guide</strong>: Collect all 385730573 Kodama in The First Samurai.</li>
+            <li data-id="checklist_6_1"><strong>Spa Connoisseur</strong>: Bathe in every hot spring in The First Samurai.</li>
+          </ul>
+
+          <h3 id="Misc_Achievements"><a href="#Misc_Achievements_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>Miscellaneous Achievements <span id="checklist_totals_7"></span></h3>
+          <ul id="Misc_Achievements_col" class="collapse in">
+            <li data-id="checklist_7_1"><strong>The Beginning of a Samurai</strong>: Reach level 10</li>
+            <li data-id="checklist_7_2"><strong>Full-Fledged Samurai</strong>: Reach level 100</li>
+            <li data-id="checklist_7_3"><strong>A Weapon's Mind</strong>: Achieve full sentience with any <a href="https://nioh2.wiki.fextralife.com/Yokai+Weapons">yokai weapon</a></li>
+            <li data-id="checklist_7_4"><strong>Burst Breaker</strong>: Successfully use the Brute, Feral, and Phantom burst counters 5 times each.</li>
+            <li data-id="checklist_7_5"><strong>Match Made in Heaven</strong>: <a href="https://nioh2.wiki.fextralife.com/Soul+Match">Soul Match</a> a piece of equipment with the blacksmith.</li>
+            <li data-id="checklist_7_6"><strong>Latest Masterpiece</strong>: Forge a piece of equipment with the blacksmith.</li>
+            <li data-id="checklist_7_7"><strong>Remodeling Novice</strong>: Remodel a piece of equipment with the blacksmith.</li>
+            <li data-id="checklist_7_8"><strong>Tea Connoisseur</strong>: Appraise 50 tea utensils.</li>
+            <li data-id="checklist_7_9"><strong>Lover of Letters</strong>: Display a calligraphy scroll in your hut.</li>
+            <li data-id="checklist_7_10"><strong>Trinket Triumph</strong>: Purchase something from the Kodama Bazaar.</li>
+            <li data-id="checklist_7_11"><strong>Teamwork</strong>: Complete 10 missions with benevolent spirits, through expeditions, or with summoned players.</li>
+            <li data-id="checklist_7_12"><strong>Help Wanted</strong>: Summon from 10 benevolent graves.</li>
+            <li data-id="checklist_7_13"><strong>Spa Healer</strong>: Bathe in a hot spring.</li>
+            <li data-id="checklist_7_15"><strong>Yokai Quelling Master</strong>: Defeat every unique type of yokai.</li>
+            <li data-id="checklist_7_16"><strong>Sudama Swapper</strong>: Drop an item for a Sudama.</li>
+            <li data-id="checklist_7_14"><strong>Core Score</strong>: Obtain a soul core for the first time.</li>
+            <li data-id="checklist_7_17"><strong>Friend to the Kodama</strong>: Obtain a Kodama soul core from a Sudama swap.</li>
+            <li data-id="checklist_7_18"><strong>Fuse It or Lose It</strong>: Soul Fuse a soul core to level 9.</li>
+            <li data-id="checklist_7_19"><strong>Let There Be Light</strong>: Dispel every Dark Realm in main story missions.</li>
+            <li data-id="checklist_7_20"><strong>Grazer Eraser</strong>: Kill Mezuki and Gozuki in the same mission, in one of three ways - Optional Gozuki in The Village of Cursed Blossoms, complete The Refined Man of the Underworld, or fight them both in The Golden Castle.</li>
+            <li data-id="checklist_7_21"><strong>Dungball Roller</strong>: Feed Ryunojo 30 dung balls in Bird in a Cage. (Noble dung balls count for 2 regular dung balls)</li>
+            <li data-id="checklist_7_22"><strong>Seasoned Traveler</strong>: Discover 10 hidden items by interacting with unmarked locations on the world map.</li>
+          </ul>
+
+
+
+        </div>
+        <!-- Search Zone END -->
+      </div>
+
+      <div class="tab-pane" id="tabFAQ">      
+        <h2>FAQ</h2>
+
+        <p>This cheat sheet was put together using the source code from <a href="https://github.com/smcnabb">Stephen McNabb</a>'s <a href="https://github.com/smcnabb/dark-souls-2-cheat-sheet">Dark Souls 2 Cheat Sheet</a> and further updated thanks to <a href="https://github.com/ZKjellberg">Zachary Kjellberg</a>'s' <a href="http://zkjellberg.github.io/dark-souls-3-cheat-sheet/">Dark Souls 3 Cheat Sheet</a>.</p>
+        <p>I tried to put this all together myself, and I fear I may be missing some information and links, but I'm working on it!</p>
+
+        <h3>Can I use this for multiple characters?</h3>
+        <p>Yes, you can change your character profile from the options tab.</p>
+
+        <h3>Is checklist status saved?</h3>
+        <p>Yes, the checklist is saved to your browser's local storage. Clearing browser cache may remove the saved data, and you'll need to check everything all over again x_x. You can alleviate this risk by exporting the checklist at any time, from the options tab.</p>
+      </div>
+
+      <div class="tab-pane" id="tabOptions">
+        <h2>Options</h2>
+
+        <!-- Theme Selection -->
+        <div class="row">
+          <div class="col col-xs-12 col-sm-4 col-md-6"><h4>Theme selection:</h4></div>
+          <div class="col col-xs-12 col-sm-8 col-md-6"><select class="form-control" id="themes"><!-- Gets filled by jQuery. --></select></div>
+        </div>
+        <!-- Profile Selection -->
+        <div class="row">
+          <div class="col col-xs-12 col-sm-4 col-md-6"><h4>Character management:</h4></div>
+          <div class="col col-xs-12 col-sm-8 col-md-6">
+            <form class="form-inline input-group pull-right">
+              <select class="form-control" id="profiles"></select>
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button" id="profileAdd">Add</button>
+                <button class="btn btn-default" type="button" id="profileEdit">Edit</button>
+                <button class="btn btn-default" type="button" id="profileNG+">NG+</button>
+              </span>
+            </form>
+          </div>
+        </div>
+        <!-- Import/Export -->
+        <div class="row">
+          <div class="col-xs-12 col-sm-4 col-md-6"><h4>Data import/export:</h4></div>
+          <div class="col-xs-12 col-sm-8 col-md-6">
+            <form class="form-inline">
+              <span class="btn-group pull-left">
+                <button class="btn btn-default" type="button" id="profileImport">Import file</button>
+                <button class="btn btn-default" type="button" id="profileExport">Export file</button>
+              </span>
+              <span class="btn-group pull-right">
+                <button class="btn btn-default" type="button" id="profileImportText">Import textbox</button>
+                <button class="btn btn-default" type="button" id="profileExportText">Export clipboard</button>
+              </span>
+            </form>
+          </div>
+          <div class="col col-xs-12">
+            <textarea id="profileText" class="form-control"></textarea>
+          </div>
+        </div>
+      </div>
+
+      <div id="profileModal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h3 id="profileModalTitle" class="modal-title">Profile</h3>
+            </div>
+            <div class="modal-body">
+              <form class="form-horizontal">
+                <div class="control-group">
+                  <label class="control-label" for="profileModalName">Name</label>
+                  <div class="controls">
+                    <input type="text" class="form-control" id="profileModalName" placeholder="Enter profile name">
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <a href="#" id="profileModalClose" class="btn btn-default" data-dismiss="modal">Close</a>
+              <a href="#" id="profileModalAdd" class="btn btn-primary" data-dismiss="modal">Add</a>
+              <a href="#" id="profileModalUpdate" class="btn btn-primary">Update</a>
+              <a href="#" id="profileModalDelete" class="btn btn-danger">Delete</a>
+            </div>
+          </div>
+          <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+      </div>
+      <!-- /.modal -->
+      <div id="NG+Modal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h3 class="modal-title">Begin next journey?</h3>
+            </div>
+            <div class="modal-body">
+              If you begin the next journey, all progress on the "Playthrough" and "Misc" tabs of this profile will be reset, while achievement and collection checklists will be kept.
+            </div>
+            <div class="modal-footer">
+              <a href="#" class="btn btn-default" data-dismiss="modal">No</a>
+              <a href="#" id="NG+ModalYes" class="btn btn-danger">Yes</a>
+            </div>
+          </div>
+          <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+      </div>
+      <!-- /.modal -->
+    </div>
+    <!-- tab-content -->
+  </div>
+  <!-- container -->
+
+  <div class="hiddenfile">
+    <input name="upload" type="file" id="fileInput" />
+  </div>
+
+  <a class="btn btn-default btn-sm fadingbutton back-to-top">Back to Top&thinsp;<span class="glyphicon glyphicon-arrow-up"></span></a>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="https://cdn.rawgit.com/andris9/jStorage/v0.4.12/jstorage.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jets/0.8.0/jets.min.js"></script>
+  <script src="js/jquery.highlight.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-66576837-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
